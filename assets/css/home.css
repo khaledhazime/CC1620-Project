@@ -1,0 +1,29 @@
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-text h1{
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+.home-text h2{
+    font-size: 2.0rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+}
+.home-text h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+}

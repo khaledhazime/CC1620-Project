@@ -1,0 +1,65 @@
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.canvas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas-text h1{
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+.canvas-text h2{
+    font-size: 2.0rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+}
+.canvas-text h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+}
+
+.canvas-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.canvas-buttons button{
+    font-size: 1.6rem;
+    color: var(--text-color);
+    font-weight: 500;
+    margin-left: 5rem;
+    transition: all .3s ease;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.canvas-buttons button:hover{
+    color: var(--main-color);
+}
+
+.navbar button.active{
+    color: var(--main-color);
+}
+
+#myCanvas{
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+

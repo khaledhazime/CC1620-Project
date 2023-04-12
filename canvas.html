@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/canvas.css">
+</head>
+<body>
+  <header class="header">
+
+    <img src="assets/images/logo.png" alt="logo" class="logo">
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="index.html">Home</a></li>
+      <a href="index.html#about">About</a></li>
+      <a href="index.html#projects">Projects</a></li>
+      <a href="#contact">Contact</a></li>
+    </nav>
+  </header>
+
+  <section class="canvas" id="canvas">
+      <div class="canvas-text">
+          <h3>Lab 06</h3>
+          <h1 class="heading"><span>Canvas</span></h1>
+          <p> 1. <b>HTML</b>:<br>
+                a. Adicione uma <b>linha na tabela</b> para a página 'Projetos.html' com o nome <b>Canvas</b> e o link para a página<br>
+                b. Crie uma <b>nova página</b> chamada 'Canvas.html'<br>
+                c. Na nova página, utilize a tag <b>canvas</b> para criar a área de desenho<br>
+                d. Configure o canvas para ter tamanho 300x300<br>
+              2. <b>CSS</b>:<br>
+                a. Adicione cor do fundo<br>
+                b. Centralize os elementos na página<br>
+              3. <b>JavaScript</b>:<br>
+                a. Utilize uma função diferente para criar cada tipo de forma<br>
+                    i. desenhar_quadrado(x, y, cor)<br>
+                    ii. desenhar_linha(x1,y1,x2,y2, cor)<br>
+                    iii. desenhar_arco(x, y, raio, angulo_inicial, angulo_final, cor)<br>
+                    iv. escrever(x, y, texto, cor)<br>
+                b. Utilize as funções que você criou para desenhar a figura conforme o modelo<br>
+          </p>
+
+      </div>
+      <canvas id="myCanvas" width="300" height="300"></canvas>
+      <nav class="canvas-buttons">
+          <button onclick="draw_squares()"> 1. Draw squares </button>
+          <button onclick="draw_arcs()"> 2. Draw arcs </button>
+          <button onclick="draw_lines()"> 3. Draw lines </button>
+          <button onclick="draw_texts()"> 4. Draw texts </button>
+          <button onclick="clear_canvas()"> 5. Clear Canvas </button>
+      </nav>
+  </section>
+
+
+
+  <script src="assets/js/canvas.js"></script>
+
+
+</body>
+</html>

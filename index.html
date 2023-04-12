@@ -1,10 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Khaled Hazime</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/projects.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
-$END$
+
+    <!-- Header section -->
+    <header class="header">
+
+        <img src="assets/images/logo.png" alt="logo" class="logo">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a></li>
+            <a href="#about">About</a></li>
+            <a href="#projects">Projects</a></li>
+            <a href="#contact">Contact</a></li>
+        </nav>
+    </header>
+
+    <!-- Home section -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h3>Hi, my name is</h3>
+            <h1 class="heading">Khaled Hazime</h1>
+            <h2><span>RoboFEI@Home member</span></h2>
+        </div>
+        <div class="home-image">
+            <img src='assets/images/memoji.png'
+                 onmouseover="this.src='assets/images/memoji2.png';"
+                 onmouseout="this.src='assets/images/memoji.png';" alt="Habibi" />
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src='assets/images/memoji3.png'
+                 onmouseover="this.src='assets/images/memoji4.png';"
+                 onmouseout="this.src='assets/images/memoji3.png';" alt="Habibi" />
+        </div>
+
+        <div class="about-text">
+            <h1 class="heading">About <span>me</span></h1>
+            <h3>Hi, I'm Khaled Hazime, a 21 years old student from Brazil.<br>
+                I'm currently studying Computer Engineering at the University Center of FEI.<br>
+                I'm also a member of the <a href="https://fei.edu.br/robofei/Html/athome/Home.html">RoboFEI@Home</a>
+                team, a team that develops robots for the <a href="https://athome.robocup.org">RoboCup@Home</a> competition.</h3>
+
+            <p>I have been working with ROS since 2018 and have gained considerable expertise in this field.
+                I also had the opportunity to participate in the Latin American Robotics Competition in the same year,
+                which was a great learning experience for me. More recently, in 2021, I participated in the RoboCup@Home competition,
+                which allowed me to showcase my skills and compete with some of the best minds in the field of robotics.
+                These experiences have helped me develop my skills and knowledge in the field of robotics,
+                and I am excited to continue exploring and contributing to this fascinating field.</p>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+        <div class="projects-text">
+            <h1 class="heading">My <span>projects</span></h1>
+            <table>
+                <tr>
+                    <th>Project</th>
+                    <th>Description</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <td>RoboFEI@Home</td>
+                    <td>RoboFEI@Home is a team of the University Center of FEI that develops robots for the RoboCup@Home competition.</td>
+                    <td>
+                        <a href="" id="robofei_link">Team website</a><br>
+                        <div id="popup"><iframe id="popupiframe"></iframe></div>
+                        <div id="popupdarkbg"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Canvas</td>
+                    <td> LAB 06 </td>
+                    <td><a href="canvas.html">Canvas</a></td>
+                </tr>
+            </table>
+        </div>
+
+        <img src='assets/images/memoji6.png'
+             onmouseover="this.src='assets/images/memoji5.png';"
+             onmouseout="this.src='assets/images/memoji6.png';" alt="Habibi" />
+    </section>
+
+
+
+
+    <script src="assets/js/robofei_modal.js" type="text/javascript"></script>
 </body>
 </html>

@@ -1,0 +1,42 @@
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--third-bg-color);
+}
+.projects table{
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.projects th, td{
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: var(--second-bg-color);
+    font-size: 1.2rem;
+}
+.projects th:first-child, td:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.projects th:last-child, td:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.projects a{
+    color: var(--main-color);
+    font-weight: 500;
+    transition: all .3s ease;
+}
+
+.button{
+    width: 100%;
+    height: 100%;
+}
+
