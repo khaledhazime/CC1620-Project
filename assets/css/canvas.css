@@ -55,11 +55,17 @@ section{
 
 #myCanvas{
     background-color: white;
-
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+#animationCanvas{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #00c7fc;
 
 }
 
